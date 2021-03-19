@@ -1,5 +1,6 @@
 # Proffy (BatDevs Version)
 
+![Landing Page](./assets/images/landing.jpg)
 ## Technology
 * HTML5
 * CSS3
