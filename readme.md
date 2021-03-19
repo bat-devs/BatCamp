@@ -5,7 +5,7 @@
 
 
 ## Projects
-* [Proffy!](http://github.com/bat-devs/BatCamp/SimpleWeb/Proffy)
+* [Proffy](https://github.com/bat-devs/BatCamp/tree/main/SimpleWeb/Proffy)
 
 ## Technology
 * HTML5
