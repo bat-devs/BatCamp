@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../index.css" />
+
+    <title>Proffy - Subscription</title>
+  </head>
+  <body>
+    <header>
+      <section class="header">
+        <a href="../index.html"
+          ><img src="../assets/svg/back.svg" alt="go back"
+        /></a>
+        <a href="../index.html" class="header-logo"
+          ><img src="../assets/svg/logo.svg" alt="go back"
+        /></a>
+      </section>
+      <section class="content">
+        <p class="intro">Que incrível que você quer dar aulas.</p>
+        <p class="description">
+          O primeiro passo é preencher esse formulário de inscrição.
+        </p>
+      </section>
+    </header>
+    <section class="form-wrapper">
+      <fieldset>
+        <form>
+          <h2>Seus Dados</h2>
+
+          <label for="name">Nome completo</label>
+          <input type="text" name="fullname" id="name" />
+
+          <label for="photo"
+            >Link da sua foto <small>(começa com http://)</small></label
+          >
+          <input type="text" name="photo" id="photo" />
+
+          <label for="whatsapp">WhatsApp <small>(somente número)</small></label>
+          <input type="text" name="whatsapp" id="whatsapp" />
+
+          <label for="biography">Biografia</label>
+          <textarea name="biography" id="biography"></textarea>
+
+          <h2>Sobre a aula</h2>
+
+          <label for="subject">Materia</label>
+          <select type="text" name="subject" id="subject">
+            <option selected="" disabled="">
+              Selecione qual você quer ensinar
+            </option>
+            <option value="english">Inglês</option>
+            <option value="mandarin">Mandarin</option>
+          </select>
+
+          <label for="cost"
+            >Custo da sua hora por aula <small>(em R$)</small></label
+          >
+          <input type="number" name="cost" id="cost" />
+
+          <h2>
+            Horários disponíveis <span><bold>+</bold> Novo Horário</span>
+          </h2>
+          <div class="double-flex">
+            <div>
+              <label for="day">Dia da semana</label>
+              <select type="text" name="day" id="day">
+                <option selected="" disabled="">Selecione o dia</option>
+                <option value="english">Segunda-feira</option>
+                <option value="english">Terça-feira</option>
+                <option value="english">Quarta-feira</option>
+                <option value="english">Quinta-feira</option>
+                <option value="english">Sexta-feira</option>
+              </select>
+            </div>
+            <div class="double-flex">
+              <div>
+                <label for="from">Das</label>
+                <input type="number" name="from" id="from" min="0" max="23" />
+              </div>
+              <div>
+                <label for="till">Até</label>
+                <input type="number" name="till" id="till" min="0" max="23" />
+              </div>
+            </div>
+          </div>
+
+          <div class="footer">
+            <div class="info">
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16 16V10"
+                  stroke="#8257E5"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M16 21.3333L16 21.3333"
+                  stroke="#8257E5"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M4 19.1747V12.8253C4 10.6893 5.136 8.71465 6.98133 7.63998L12.9813 4.14798C14.8467 3.06265 17.152 3.06265 19.0173 4.14798L25.0173 7.63998C26.864 8.71465 28 10.6893 28 12.8253V19.1747C28 21.3107 26.864 23.2853 25.0187 24.36L19.0187 27.852C17.1533 28.9373 14.848 28.9373 12.9827 27.852L6.98267 24.36C5.136 23.2853 4 21.3107 4 19.1747V19.1747Z"
+                  stroke="#8257E5"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <div>
+                <p>Importante!</p>
+                <p>Preencha todos os dados!</p>
+              </div>
+            </div>
+            <button class="save">Salvar cadastro</button>
+          </div>
+        </form>
+      </fieldset>
+    </section>
+  </body>
+</html>
